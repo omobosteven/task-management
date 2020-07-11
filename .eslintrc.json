@@ -16,5 +16,18 @@
         "sourceType": "module"
     },
     "rules": {
+        "new-cap": "warn",
+        "require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "FunctionDeclaration": false,
+                    "MethodDefinition": true,
+                    "ClassDeclaration": true,
+                    "ArrowFunctionExpression": false,
+                    "FunctionExpression": false
+                }
+            }
+        ]
     }
 }
