@@ -16,7 +16,13 @@
         "sourceType": "module"
     },
     "rules": {
-        "new-cap": "warn",
+        "new-cap": [
+            "warn",
+            {
+                "capIsNew": false
+            }
+        ],
+        "comma-dangle": "off",
         "require-jsdoc": [
             "error",
             {

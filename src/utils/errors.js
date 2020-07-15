@@ -1,7 +1,7 @@
 /**
  * Error class
  */
-export class BadRequestError extends Error {
+export class RequestError extends Error {
   /**
    *
    * @param {object} error
